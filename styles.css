@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
 }
 
-/* Encabezado */
+
 header {
     background-color: #1b5e20;
     color: #ffffff;
@@ -65,13 +65,12 @@ main {
     margin-bottom: 0.5rem;
 }
 
-/* Línea separadora */
+
 .linea {
     border-bottom: 2px solid #2e7d32;
     margin: 2rem 0;
 }
 
-/* Títulos */
 .seccion-titulo {
     font-size: 1.4rem;
     font-weight: bold;
@@ -79,12 +78,12 @@ main {
     margin-bottom: 0.5rem;
 }
 
-/* Texto */
+
 .seccion-texto {
     margin-bottom: 1rem;
 }
 
-/* Listas */
+
 ul {
     padding-left: 1.2rem;
 }
@@ -93,7 +92,7 @@ li {
     margin-bottom: 0.4rem;
 }
 
-/* Pie de página */
+
 footer {
     background-color: #1b5e20;
     color: #e8f5e9;
