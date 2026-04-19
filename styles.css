@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #f4f7f4;
+    color: #1b1b1b;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #1b5e20;
+    color: #ffffff;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #e8f5e9;
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #2e7d32;
+}
+
+nav a.activo {
+    background-color: #66bb6a;
+    color: #ffffff;
+}
+
+/* Contenido principal */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem 3rem;
+}
+
+/* Sección destacada */
+.hero {
+    background-color: #c8e6c9;
+    border-left: 4px solid #2e7d32;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+
+.hero h2 {
+    margin-bottom: 0.5rem;
+}
+
+/* Línea separadora */
+.linea {
+    border-bottom: 2px solid #2e7d32;
+    margin: 2rem 0;
+}
+
+/* Títulos */
+.seccion-titulo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #1b5e20;
+    margin-bottom: 0.5rem;
+}
+
+/* Texto */
+.seccion-texto {
+    margin-bottom: 1rem;
+}
+
+/* Listas */
+ul {
+    padding-left: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1b5e20;
+    color: #e8f5e9;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
