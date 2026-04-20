@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-/* Navegación */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -48,9 +48,8 @@ section {
 
 
 section img {
-    width: 40%;
-    float: right;
-    margin-left: 15px;
+    width: 35%;
+    float: center;
     border: 3px solid #2e7d32;
     border-radius: 8px;
 }
