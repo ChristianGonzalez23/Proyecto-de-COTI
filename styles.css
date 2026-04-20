@@ -6,7 +6,7 @@ body {
     color: #1b1b1b;
 }
 
-/* Encabezado */
+
 header {
     background-color: #1b5e20;
     color: white;
@@ -36,7 +36,7 @@ nav a:hover {
     background-color: #66bb6a;
 }
 
-/* Secciones */
+
 section {
     max-width: 900px;
     margin: 30px auto;
@@ -46,7 +46,7 @@ section {
     border-radius: 6px;
 }
 
-/* Imagen a la derecha */
+
 section img {
     width: 40%;
     float: right;
@@ -55,14 +55,14 @@ section img {
     border-radius: 8px;
 }
 
-/* Línea divisoria */
+
 hr {
     border: none;
     border-bottom: 2px solid #2e7d32;
     margin: 30px 0;
 }
 
-/* Pie de página */
+
 footer {
     background-color: #1b5e20;
     color: white;
